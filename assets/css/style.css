@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #333333;
   text-decoration: none;
 }
 
@@ -72,30 +72,16 @@ h6,
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #F3E3FC;
+  opacity: 0.7;
   height: 60px;
 }
 
-#header .logo h1 {
-  font-size: 28px;
-  margin: 0;
-  padding: 4px 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 #main {
@@ -113,6 +99,7 @@ h6,
 }
 
 .navbar ul {
+
   margin: 0;
   padding: 0;
   display: flex;
@@ -132,7 +119,7 @@ h6,
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #820AD1;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -333,29 +320,13 @@ h6,
 #hero::after {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   top: 0;
   width: 130%;
   height: 95%;
-  background: #383D43;
-  z-index: 0;
-  border-radius: 0 0 50% 50%;
-  transform: translateX(-50%) rotate(0deg);
+  background: #eeeae6;
 }
 
-#hero::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 130%;
-  height: 96%;
-  background: #820AD1;
-  opacity: 0.3;
-  z-index: 0;
-  border-radius: 0 0 50% 50%;
-  transform: translateX(-50%) translateY(18px) rotate(2deg);
-}
 
 #hero .carousel-container {
   display: flex;
@@ -370,7 +341,7 @@ h6,
 }
 
 #hero h2 {
-  color: #fff;
+  color: #8B755F;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -380,7 +351,7 @@ h6,
   width: 80%;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #8B755F;
 }
 
 #hero .btn-get-started {
@@ -394,14 +365,14 @@ h6,
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #8B755F;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #E7C7FC;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
-  color: #fff;
+  background: #E7C7FC;
+  color: #8B755F;
   text-decoration: none;
 }
 
