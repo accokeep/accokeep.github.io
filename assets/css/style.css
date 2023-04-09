@@ -354,6 +354,10 @@ h6,
   color: #8B755F;
 }
 
+#hero .form-element {
+  display: inline-block;
+}
+
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -364,16 +368,10 @@ h6,
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
   color: #8B755F;
   animation-delay: 0.8s;
   border: 2px solid #E7C7FC;
-}
-
-#hero .btn-get-started:hover {
   background: #E7C7FC;
-  color: #8B755F;
-  text-decoration: none;
 }
 
 @media (min-width: 1024px) {
@@ -1392,13 +1390,13 @@ section {
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
+.contact .email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   margin-bottom: 30px;
 }
 
-.contact .php-email-form .error-message {
+.contact .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1407,11 +1405,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1420,14 +1418,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1439,27 +1437,27 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .email-form input,
+.contact .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.contact .email-form input::focus,
+.contact .email-form textarea::focus {
   background-color: #68A4C4;
 }
 
-.contact .php-email-form input {
+.contact .email-form input {
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.contact .email-form textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .email-form button[type=submit] {
   background: #68A4C4;
   border: 0;
   padding: 10px 24px;
@@ -1467,7 +1465,7 @@ section {
   transition: 0.4s;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .email-form button[type=submit]:hover {
   background: #8dbad2;
 }
 
